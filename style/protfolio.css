@@ -9,7 +9,9 @@
 }
 
 /* shared style */
-
+.secondary-bg{
+    background-color:#FFF8F3;
+}
 .text-primary {
     color: #FD6E0A;
 }
@@ -27,7 +29,17 @@
     font-size: 20px;
     border: none;
 }
+/* section */
+.section-title{
+    font-size: 30px;
+    font-weight: bold;
+    color:#181818;
+}
 
+.section-description{
+    font-size: 18px;
+    color:#757575;
+}
 
 /* Nav Style */
 nav {
@@ -106,4 +118,24 @@ nav ul li a {
     width: 580px;
     height: 670px;
 
+}
+
+/* main */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/* about */
+.about{ border-radius: 10px;
+     padding:130px 150px;
+     text-align: center;
+     margin-top:130px
+}
+.adout-items{
+    display: flex;
+    justify-content: space-around;
+}
+
+.item-description{
+    font-weight:600;
 }
